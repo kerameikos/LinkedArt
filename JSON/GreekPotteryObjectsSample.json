@@ -4203,6 +4203,24 @@
                 "_label": "inches"
             }
         }],
+        "was_found_by": {
+            "id": "http://example.org/discovery/1",
+            "type": "Discovery",
+            "took_place_at": {
+                "type": "Place",
+                "_label": "Tomb in Vulci",
+                "classified_as": [{
+                    "id": "http://vocab.getty.edu/aat/300005926",
+                    "type": "Type",
+                    "_label": "tombs"
+                }],
+                "part_of": [{
+                    "id": "http://vocab.getty.edu/tgn/7015539",
+                    "type": "Place",
+                    "_label": "Vulci"
+                }]
+            }
+        },
         "current_owner": {
             "id": "http://vocab.getty.edu/ulan/500300517",
             "type": "Group",
